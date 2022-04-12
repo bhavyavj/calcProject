@@ -4,11 +4,11 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: himankjn/check
+        name: bhavya0560/calcproj
         source: pull
     - name: deploy docker container
       docker_container:
-        image: himankjn/check
+        image: bhavya0560/calcproj
         name: container2
         state: started
         ports:
